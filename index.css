@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 93vh;
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(257, 40%, 49%);
+    padding: 3rem 8rem;
+    background-image: url(assets/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -9vw;
+    padding: 80px 80px 30px 80px;
+}
+.header .logo{
+    height: 50px;
+    margin-bottom: 1.6rem;
+}
+.main img{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    display: flex;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.main .right{
+    flex: 1;
+    padding: 5rem 6rem;
+}
+.main h2{
+    color: #ffffff;
+    font-family: "Poppins", "sans-serif";
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+.main p{
+    font-size: larger;
+}
+.btn{
+    display: block;
+    width: 160px;
+    background: white;
+    text-decoration: none;
+    border: 0.2rem solid hsl(257, 40%, 49%);
+    color: hsl(257, 40%, 49%);
+    padding: 16px 30px;
+    border-radius: 2cm;
+    text-align: center;
+    box-shadow: 0.4rem 0.4rem 0.8rem rgb(0 0 0 / 30%);
+    transition: all 0.3s;
+    font-size: 20px;
+}
+.btn:hover{
+    background: hsl(300, 69%, 71%);
+    color: white;
+}
+.footer{
+    height: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 3.2rem;
+}
+.footer .ftr{
+    margin-right: 2rem;
+}
+.fab{
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.6rem;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid white;
+    margin-left: 1.4rem;
+    border-radius: 50%;
+    color: white;
+    fill: white;
+}
+.fab:hover{
+    border: 0.2rem solid hsl(300, 69%, 71%);
+    fill: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
